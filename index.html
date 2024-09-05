@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title> Nails over Flowers </title>  <link rel="icon" href="img/IMG_2197.PNG">
 </head>
 <body>
@@ -17,11 +18,24 @@
         </ul>
     </header>
     <h2>Bienvenida, agenda tu cita con nosotros </h2>
-    <!--Imagenes clientas-->
-    <h3>Clientas </h3>
-    <ul>
-        <li><img href=" ">Uñas acrílicas </li>
-        <li><img href=" ">Gel semipermanente </li>
-    </ul>
+    <!--Imagenes servicios-->
+    <h3>Servicios </h3>
+    <ul class="fotos">
+        <li>Uñas acrílicas<img src="img/IMG_2173.JPEG" alt="Mano con uñas acrílicas color negro"> </li>
+        <li>Gel semipermanente<img src="img/IMG_0040.JPEG"alt="Mano con uñas nude con brillos de colores " > </li>
+        <li>Manicure & Spa<img src="img/IMG_0383.JPEG" alt="Mano con manicure, esmalte nude y nailart"></li>
+    </ul> 
+
+    <!--Formulario -->
+    <h3>¡Agenda ahora!</h3>
+    <p>Rellena el siguiente formulario y nos pondremos en contacto contigo.</p>
+    <form>
+        <label for="nombreApellido">Nombre y Apellido</label>
+        <input type="text" id="nombreApellido" class="input-padron" required>
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+    </form>
+
 </body>
 </html>
