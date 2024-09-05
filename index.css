@@ -35,6 +35,18 @@ h3{
     font-size: 35px;
 }
 
+form label, form input, form select {
+        display: block;
+        margin:15px;
+        font-weight: bold;
+        border-color: #9789eb;
+        border-radius: 20px;
+    }
+
+form{
+    margin-bottom: 100px;
+    }
+
 .Servicios{
     list-style-type: none;
     display:flex; 
