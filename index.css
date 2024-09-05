@@ -48,6 +48,12 @@ p{
     font-size: 25px;
 }
 
-.formulario{
+.pie, h4, h5{
+    background: #d4c0ff;
+    text-align: center;
+}
+
+.logoFooter{
+    width: 10%;
     
 }
